@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "Deploying webapp containers..."
+docker pull lexworth2539/haproxy:latest
 docker stop acada-webapp1 acada-webapp2 accada-webapp3 acada-webappp4 acada-webapp5 acada-webapp-alex || true
 docker rm acada-wepp1 acada-webapp2 acada-webapp3 acada-webapp4 acada-webapp5 acada-webapp-alex -f
 docker network create acada-app
