@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir -p /opt/docker_config_files/
+sudo mkdir -p /opt/docker_config_files/
 
 echo "Deploying webapp containers..."
 docker pull lexworth2539/haproxy:latest
